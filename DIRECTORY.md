@@ -40,6 +40,7 @@
   * [Count Number Of One Bits](bit_manipulation/count_number_of_one_bits.py)
   * [Excess 3 Code](bit_manipulation/excess_3_code.py)
   * [Find Previous Power Of Two](bit_manipulation/find_previous_power_of_two.py)
+  * [Find Unique Number](bit_manipulation/find_unique_number.py)
   * [Gray Code Sequence](bit_manipulation/gray_code_sequence.py)
   * [Highest Set Bit](bit_manipulation/highest_set_bit.py)
   * [Index Of Rightmost Set Bit](bit_manipulation/index_of_rightmost_set_bit.py)
@@ -127,15 +128,6 @@
   * [Vigenere Cipher](ciphers/vigenere_cipher.py)
   * [Xor Cipher](ciphers/xor_cipher.py)
 
-## Compression
-  * [Burrows Wheeler](compression/burrows_wheeler.py)
-  * [Huffman](compression/huffman.py)
-  * [Lempel Ziv](compression/lempel_ziv.py)
-  * [Lempel Ziv Decompress](compression/lempel_ziv_decompress.py)
-  * [Lz77](compression/lz77.py)
-  * [Peak Signal To Noise Ratio](compression/peak_signal_to_noise_ratio.py)
-  * [Run Length Encoding](compression/run_length_encoding.py)
-
 ## Computer Vision
   * [Cnn Classification](computer_vision/cnn_classification.py)
   * [Flip Augmentation](computer_vision/flip_augmentation.py)
@@ -179,6 +171,15 @@
   * [Time Conversions](conversions/time_conversions.py)
   * [Volume Conversions](conversions/volume_conversions.py)
   * [Weight Conversion](conversions/weight_conversion.py)
+
+## Data Compression
+  * [Burrows Wheeler](data_compression/burrows_wheeler.py)
+  * [Huffman](data_compression/huffman.py)
+  * [Lempel Ziv](data_compression/lempel_ziv.py)
+  * [Lempel Ziv Decompress](data_compression/lempel_ziv_decompress.py)
+  * [Lz77](data_compression/lz77.py)
+  * [Peak Signal To Noise Ratio](data_compression/peak_signal_to_noise_ratio.py)
+  * [Run Length Encoding](data_compression/run_length_encoding.py)
 
 ## Data Structures
   * Arrays
@@ -289,6 +290,7 @@
     * [Dijkstras Two Stack Algorithm](data_structures/stacks/dijkstras_two_stack_algorithm.py)
     * [Infix To Postfix Conversion](data_structures/stacks/infix_to_postfix_conversion.py)
     * [Infix To Prefix Conversion](data_structures/stacks/infix_to_prefix_conversion.py)
+    * [Largest Rectangle Histogram](data_structures/stacks/largest_rectangle_histogram.py)
     * [Lexicographical Numbers](data_structures/stacks/lexicographical_numbers.py)
     * [Next Greater Element](data_structures/stacks/next_greater_element.py)
     * [Postfix Evaluation](data_structures/stacks/postfix_evaluation.py)
@@ -395,6 +397,7 @@
   * [Minimum Tickets Cost](dynamic_programming/minimum_tickets_cost.py)
   * [Optimal Binary Search Tree](dynamic_programming/optimal_binary_search_tree.py)
   * [Palindrome Partitioning](dynamic_programming/palindrome_partitioning.py)
+  * [Range Sum Query](dynamic_programming/range_sum_query.py)
   * [Regex Match](dynamic_programming/regex_match.py)
   * [Rod Cutting](dynamic_programming/rod_cutting.py)
   * [Smith Waterman](dynamic_programming/smith_waterman.py)
@@ -440,6 +443,7 @@
   * [Present Value](financial/present_value.py)
   * [Price Plus Tax](financial/price_plus_tax.py)
   * [Simple Moving Average](financial/simple_moving_average.py)
+  * [Time And Half Pay](financial/time_and_half_pay.py)
 
 ## Fractals
   * [Julia Sets](fractals/julia_sets.py)
@@ -476,6 +480,7 @@
   * [Bi Directional Dijkstra](graphs/bi_directional_dijkstra.py)
   * [Bidirectional A Star](graphs/bidirectional_a_star.py)
   * [Bidirectional Breadth First Search](graphs/bidirectional_breadth_first_search.py)
+  * [Bidirectional Search](graphs/bidirectional_search.py)
   * [Boruvka](graphs/boruvka.py)
   * [Breadth First Search](graphs/breadth_first_search.py)
   * [Breadth First Search 2](graphs/breadth_first_search_2.py)
@@ -568,6 +573,7 @@
   * [Gaussian Elimination](linear_algebra/gaussian_elimination.py)
   * [Jacobi Iteration Method](linear_algebra/jacobi_iteration_method.py)
   * [Lu Decomposition](linear_algebra/lu_decomposition.py)
+  * [Matrix Inversion](linear_algebra/matrix_inversion.py)
   * Src
     * [Conjugate Gradient](linear_algebra/src/conjugate_gradient.py)
     * [Gaussian Elimination Pivoting](linear_algebra/src/gaussian_elimination_pivoting.py)
@@ -608,6 +614,7 @@
   * [Mfcc](machine_learning/mfcc.py)
   * [Multilayer Perceptron Classifier](machine_learning/multilayer_perceptron_classifier.py)
   * [Polynomial Regression](machine_learning/polynomial_regression.py)
+  * [Principle Component Analysis](machine_learning/principle_component_analysis.py)
   * [Scoring Functions](machine_learning/scoring_functions.py)
   * [Self Organizing Map](machine_learning/self_organizing_map.py)
   * [Sequential Minimum Optimization](machine_learning/sequential_minimum_optimization.py)
@@ -878,6 +885,7 @@
   * [Centripetal Force](physics/centripetal_force.py)
   * [Coulombs Law](physics/coulombs_law.py)
   * [Doppler Frequency](physics/doppler_frequency.py)
+  * [Escape Velocity](physics/escape_velocity.py)
   * [Grahams Law](physics/grahams_law.py)
   * [Horizontal Projectile Motion](physics/horizontal_projectile_motion.py)
   * [Hubble Parameter](physics/hubble_parameter.py)
@@ -892,6 +900,7 @@
   * [N Body Simulation](physics/n_body_simulation.py)
   * [Newtons Law Of Gravitation](physics/newtons_law_of_gravitation.py)
   * [Newtons Second Law Of Motion](physics/newtons_second_law_of_motion.py)
+  * [Orbital Transfer Work](physics/orbital_transfer_work.py)
   * [Period Of Pendulum](physics/period_of_pendulum.py)
   * [Photoelectric Effect](physics/photoelectric_effect.py)
   * [Potential Energy](physics/potential_energy.py)
@@ -1116,6 +1125,8 @@
     * [Sol1](project_euler/problem_092/sol1.py)
   * Problem 094
     * [Sol1](project_euler/problem_094/sol1.py)
+  * Problem 095
+    * [Sol1](project_euler/problem_095/sol1.py)
   * Problem 097
     * [Sol1](project_euler/problem_097/sol1.py)
   * Problem 099
@@ -1150,6 +1161,8 @@
     * [Sol1](project_euler/problem_120/sol1.py)
   * Problem 121
     * [Sol1](project_euler/problem_121/sol1.py)
+  * Problem 122
+    * [Sol1](project_euler/problem_122/sol1.py)
   * Problem 123
     * [Sol1](project_euler/problem_123/sol1.py)
   * Problem 125
@@ -1160,10 +1173,14 @@
     * [Sol1](project_euler/problem_131/sol1.py)
   * Problem 135
     * [Sol1](project_euler/problem_135/sol1.py)
+  * Problem 136
+    * [Sol1](project_euler/problem_136/sol1.py)
   * Problem 144
     * [Sol1](project_euler/problem_144/sol1.py)
   * Problem 145
     * [Sol1](project_euler/problem_145/sol1.py)
+  * Problem 164
+    * [Sol1](project_euler/problem_164/sol1.py)
   * Problem 173
     * [Sol1](project_euler/problem_173/sol1.py)
   * Problem 174
@@ -1174,6 +1191,8 @@
     * [Sol1](project_euler/problem_187/sol1.py)
   * Problem 188
     * [Sol1](project_euler/problem_188/sol1.py)
+  * Problem 190
+    * [Sol1](project_euler/problem_190/sol1.py)
   * Problem 191
     * [Sol1](project_euler/problem_191/sol1.py)
   * Problem 203
@@ -1188,6 +1207,8 @@
     * [Sol1](project_euler/problem_234/sol1.py)
   * Problem 301
     * [Sol1](project_euler/problem_301/sol1.py)
+  * Problem 345
+    * [Sol1](project_euler/problem_345/sol1.py)
   * Problem 493
     * [Sol1](project_euler/problem_493/sol1.py)
   * Problem 551
